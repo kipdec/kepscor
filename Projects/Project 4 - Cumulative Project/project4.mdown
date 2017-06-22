@@ -1,0 +1,58 @@
+# Project 4: Putting it all together
+
+Over the past few days, you've learned about coding, hardware and plants! For our final project, we're going to take all that we've learned and combine it to create the ultimate plant monitoring device.
+
+Our ultimate device will:
+	* Tell us when our plant is not getting enough light.
+	* Tell us when our plant needs water.
+	* Display this information both on-screen and via blinking lights!
+
+## Procedure
+
+1. Gather Materials:
+	* 1x Raspberry Pi
+	* 1x Breadboard
+	* 1x Arduino
+	* 1x Moisture Sensor
+	* 1x Light Sensor
+	* 2x Red LEDs
+	* 2x Green LEDs
+	* 3x long jumpers
+	* 4x medium jumpers
+	* 4x short jumpers
+	* 1x 10k Resistor
+	* 4x 220ohm Resistors
+
+2. Setting up the Arduino:
+	1. Connect a short jumper from the Arduino's +5v port to the outer rail of the breadboard.
+	2. Do the same from the Arduino's ground port to the inner rail.
+	3. Connect your 10k resistor from the inner rail to B8.
+	3. Connect 4 resistors from the inner rail to the following locations: B10, B13, B16 and B19.
+	4. Connect a photoresistor from E8 to F8.
+	5. Connect the postive leg (the longer leg) of a green LED at E10 and the negative leg at E11.
+	6. Connect the postive leg of a red LED at E13 and the negative leg at E14.
+	7. Connect the postive leg of a green LED at E16 and the negative leg at E17.
+	8. Connect the postive leg of a red LED at E19 and the negative leg at E20.
+	9. Connect a long jumper from the Moisture Sensor's 5V pin to the outer rail.
+	10. Connect a long jumper from the Moisture Sensor's GND pin to the inner rail.
+	11. Connect a long jumper from the Moisture Sensor's SIG pin to the Arduino's analog pin #_______.
+	12. Connect a short jumper from the outer rail to G8 on the breadboard.
+	13. Connect a short jumper from C8 on the breadboard to analog pin #_____
+	on the Arduino.
+	14. Connect a medium jumper from A11 to digital pin #_____. NOTE: You cannot use digital ports 0 and 1 on the Arduino.
+	15. Connect a medium jumper from A14 to digital pin #_____.
+	16. Connect a medium jumper from A17 to digital pin #_____.
+	17. Connect a medium jumper from A20 to digital pin #_____.
+	18. You should be ready to go! Remember to have an instructor look it over before you connect your Arduino.
+
+3. Writing the code:
+	1. Write your pseudocode. Refer back to your pseudocode from past projects if you get stuck.
+	2. Compare your pseudocode to that provided in the book. Did you miss anything?
+	3. Write your code in the space provided in the framework for this project.
+	4. Remember to have an instructor look over your code before testing your brand new plant monitor!
+
+## Post-Project:
+1. What kind of use do you think that this circuit and code could have?
+2. For the other uses you came up with, what changes would need to be made to the existing project and what new things would need to be added.
+3. What kind of experiments would you like to do in the future?
+
